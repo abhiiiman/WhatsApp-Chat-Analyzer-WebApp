@@ -6,6 +6,26 @@ import streamlit as st
 import helper
 import preprocessor
 
+hide_st_style = """
+                <style>
+                #MainMenu {visibility : hidden;}
+                footer {visibility : hidden;}
+                header {visibility : hidden;}
+                </style>
+                """
+
+st.set_page_config(
+    page_title="WhatsApp Chat Analyzer",
+    page_icon="📨",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://www.linkedin.com/in/abhiiiman',
+        'Report a bug': "https://www.github.com/abhiiiman",
+        'About': "## A 'WhatsApp Chat Analyzer Tool' by Abhijit Mandal"
+    }
+)
+
 st.sidebar.title("Whatsapp Chat Analyzer 🤖")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file 📂")
