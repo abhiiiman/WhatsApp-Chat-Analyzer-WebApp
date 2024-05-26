@@ -26,6 +26,9 @@ st.set_page_config(
     }
 )
 
+#remove all the default streamlit configs here
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 st.sidebar.title("Whatsapp Chat Analyzer 🤖")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file 📂")
