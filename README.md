@@ -2,6 +2,9 @@
 
 Welcome to the WhatsApp Chat Analyzer! This app allows you to analyze your WhatsApp conversations in-depth. Whether it's an individual chat or a group chat, you can gain insights into your messaging patterns, most active participants, frequent words, and much more.
 
+## 🏡 Landing Page
+![image](https://github.com/abhiiiman/WhatsApp-Chat-Analyzer-WebApp/assets/111262410/e95beb54-a92a-43b4-84b9-899caf63dda7)
+
 ## 🚀 Getting Started
 
 Follow these simple steps to use the WhatsApp Chat Analyzer:
