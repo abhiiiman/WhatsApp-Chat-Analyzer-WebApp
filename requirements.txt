@@ -6,3 +6,4 @@ pandas~=2.2.2
 django-emoji~=2.2.2
 urlextract~=1.9.0
 wordcloud~=1.9.3
+django
