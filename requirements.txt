@@ -3,7 +3,6 @@ plotly~=5.22.0
 seaborn~=0.13.2
 streamlit~=1.35.0
 pandas~=2.2.2
-django-emoji~=2.2.2
+emoji
 urlextract~=1.9.0
 wordcloud~=1.9.3
-django
